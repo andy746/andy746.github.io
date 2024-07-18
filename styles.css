@@ -6,11 +6,8 @@
   display: block;
 }
 
-h1 {
-  font-family: "Oswald", sans-serif;
-}
-
 body {
+  font-family: "Oswald", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -21,6 +18,9 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: #BF5700;
+  color:#FFF;
+  border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
 
@@ -30,11 +30,11 @@ body {
 }
 
 .tab.active {
-  background-color: #CCC;
+  background-color: #FFA500;
 }
 
 .tab:hover {
-  background-color: #AAA;
+  background-color: #FFDBBB;
 }
 
 .tab-content {
