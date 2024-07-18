@@ -1,0 +1,99 @@
+<html> 
+  
+<head> 
+    <link href= 
+'https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-darkness/jquery-ui.css' 
+          rel='stylesheet'> 
+</head> 
+    <style> 
+        b{ 
+            float: right; 
+            margin: 7px; 
+            color: lime; 
+        } 
+          
+        #geeks a:hover{ 
+            color: lime; 
+            background: gray; 
+        } 
+          
+    </style> 
+<body> 
+    <br> 
+    <br> 
+    <div id="geeks"> 
+        <ul> 
+  
+            <li><a href="#Algorithms">Algorithms</a></li> 
+            <li><a href="#Data_Structure">Data Structure</a></li> 
+            <li><a href="#Practice">Practice</a></li> 
+            <li><a href="#interview">interview</a></li> 
+              
+            <b>GeeksforGeeks</b> 
+        </ul> 
+  
+        <div id='Algorithms'> 
+            <p> 
+                The answer to this is simple, we can have all the  
+                above things only if we have performance. So  
+                performance is like currency through which we can 
+                buy all the above things. Another reason  
+                for studying performance is – speed is fun! 
+            </p> 
+        </div> 
+  
+        <div id='Data_Structure'> 
+            <p> 
+                For example, let us say, we want to store marks of  
+                all students in a class, we can use an array to store 
+                them. This helps in reducing the use of number of  
+                variables as we don’t need to create a separate  
+                variable for marks of every subject.  All marks can 
+                be accessed by simply traversing the array. 
+            </p> 
+        </div> 
+  
+  
+        <div id='Practice'> 
+            <p> 
+                Asymptotic Analysis is the big idea that handles  
+                above issues in analyzing algorithms. In Asymptotic 
+                Analysis, we evaluate the performance of an algorithm 
+                in terms of input size (we don’t measure the actual  
+                running time). We calculate, how does the time  
+                (or space) taken by an algorithm increases with  
+                the input size. 
+            </p>     
+        </div> 
+  
+        <div id='interview'> 
+            <p> 
+                Also, in Asymptotic analysis, we always talk about  
+                input sizes larger than a constant value. It might  
+                be possible that those large inputs are never given 
+                to your software and an algorithm  which is  
+                asymptotically slower, always performs better for  
+                your particular situation. So, you may end up choosing 
+                an algorithm that is Asymptotically slower but faster  
+                for your software. 
+            </p> 
+        </div> 
+  
+    </div> 
+    <script src= 
+"https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> 
+    </script> 
+    <script src= 
+"https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"> 
+    </script> 
+    <script> 
+        $(document).ready(function() { 
+            $("#geeks").tabs({ 
+                    active: 0 
+                }) 
+        }) 
+    </script> 
+  
+</body> 
+  
+</html>
