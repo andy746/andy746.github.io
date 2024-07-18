@@ -5,3 +5,8 @@
 .active[data-tab-content] {
   display: block;
 }
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+}
