@@ -35,8 +35,8 @@ body {
   padding: 0;
   background-color: #BF5700;
   color:#FFF;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 3px solid gray;
+  border-bottom: 3px solid gray;
 }
 
 .tab {
@@ -55,4 +55,13 @@ body {
 .tab-content {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+footer {
+  background-color: #BF5700;
+  color:#FFF;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  border-top: 3px solid gray;
+  border-bottom: 3px solid gray;
 }
