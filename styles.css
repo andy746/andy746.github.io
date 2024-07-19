@@ -1,11 +1,16 @@
-.left-intro {
-  float: left;
-  margin: 0;
+#top-banner {
+  /*padding: 0.5em 0.5em 0 0.5em;
+  background: var(--white);
+  border-bottom: 3px outset var(--light-grey);
+  /* align children */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.right-intro {
-  float: right;
-  margin: 0;
+#top-banner div {
+  display: flex;
+  align-items: flex-start;
 }
 
 [data-tab-content] {
