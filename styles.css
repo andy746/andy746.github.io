@@ -1,3 +1,13 @@
+.left-intro {
+  float: left;
+  margin: 0;
+}
+
+.right-intro {
+  float: right;
+  margin: 0;
+}
+
 [data-tab-content] {
   display: none;
 }
