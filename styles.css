@@ -1,16 +1,11 @@
-#top-banner {
-  /*padding: 0.5em 0.5em 0 0.5em;
-  background: var(--white);
-  border-bottom: 3px outset var(--light-grey);
-  /* align children */
-  display: flex;
+.top-banner {
   justify-content: space-between;
-  align-items: center;
+  display: flex;
 }
 
-#top-banner div {
-  display: flex;
-  align-items: flex-start;
+.text-container {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 [data-tab-content] {
